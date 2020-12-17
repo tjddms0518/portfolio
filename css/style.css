@@ -1,0 +1,132 @@
+*{margin: 0;}
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration: none;}
+
+header{width: 100%; height: 8rem; background-color: #FEC679;}
+
+header > nav{width: 102.4rem; margin: auto; display: flex; justify-content: space-between; align-items: center; height: 8rem;}
+/* display: flex = 1행 수평으로 정렬, justify-content: space-between = 양 옆 여백 없이 일정한 비율 간격, align-items: center = 정렬 */
+
+header > nav > .logo{margin-right: 6rem;}
+header > nav > .menu{display: inline-block;} /*인라인블럭=하나의 개체가 된다*/
+header > nav > .menu > ul{list-style: none;} /*동그라미 없음*/
+header > nav > .menu > ul > li{float: left; margin: 0rem 4rem;} /*여백주는 순서= 상하 좌우*/
+header > nav > .menu > ul > li > a{color: #ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 2rem; font-weight: 400;}
+header > nav > .menu > ul > li > a:hover{color: #D02800;} /*마우스 갖다댔을 때*/
+
+section > .keyvisual{background-color: #FFF1C0; background-image: url('../img/main_01.png'); height: 50rem; background-size: cover;} /*background-repeat: no-repeat=바둑판 안되지만 사진하나만 나옴*/
+section > .keyvisual > .keyvisual_wrap{margin: auto; width: 102.4rem; height: 50rem;} /*wrap=감싸는것*/
+section > .keyvisual > .keyvisual_wrap > .keyvisual_title{padding-top: 8.4rem; text-align: center;}
+
+section > .profile{background-color: #FFB857; background-image: url('../img/main_bg.png');height: 210rem;}
+section > .profile > .profile_wrap{margin: auto; width: 102.4rem;}
+section > .profile > .profile_wrap > .profile_tit{text-align: center; padding-top: 8.5rem; border-bottom: 4px red;}
+section > .profile > .profile_wrap > .profile_01{float: left; padding-top: 13rem;}
+section > .profile > .profile_wrap > .profile_02{float: right; padding-top: 18.5rem;}
+section > .profile > .profile_wrap > .profile_03{text-align: center; margin-top: 57rem;}
+section > .profile > .profile_wrap > .profile_04{text-align: center; margin-top: 5.3rem;}
+
+section > .bottom {background-color: #FFD69F; height: 75rem;}
+section > .bottom > .bot_tit{margin: auto; text-align: center; width: 102.4rem; padding-top: 10rem;}
+section > .bottom > .bot_wrap{margin: auto;width: 102.4rem; display: flex; justify-content: space-between; align-items: center; padding-top: 6rem;}
+.bot_01{position: relative; display: inline-block; width: 17rem; height: 37rem; background-image: url('../img/bot_01.png'); background-size: cover; background-repeat: no-repeat;}
+.bot_02{position: relative; display: inline-block; width: 17rem; height: 37rem; background-image: url('../img/bot_02.png'); background-size: cover; background-repeat: no-repeat;}
+.bot_03{position: relative; display: inline-block; width: 17rem; height: 37rem; background-image: url('../img/bot_03.png'); background-size: cover; background-repeat: no-repeat;}
+.bot_04{position: relative; display: inline-block; width: 17rem; height: 37rem; background-image: url('../img/bot_04.png'); background-size: cover; background-repeat: no-repeat;}
+.bot_05{position: relative; display: inline-block; width: 17rem; height: 37rem; background-image: url('../img/bot_05.png'); background-size: cover; background-repeat: no-repeat;}
+
+.bot_01:hover{background-image: url('../img/bot_01_over.png'); transform:scale(1.1, 1.1); transition: 0.6s;}
+.bot_02:hover{background-image: url('../img/bot_02_over.png'); transform:scale(1.1, 1.1); transition: 0.6s;}
+.bot_03:hover{background-image: url('../img/bot_03_over.png'); transform:scale(1.1, 1.1); transition: 0.6s;}
+.bot_04:hover{background-image: url('../img/bot_04_over.png'); transform:scale(1.1, 1.1); transition: 0.6s;}
+.bot_05:hover{background-image: url('../img/bot_05_over.png'); transform:scale(1.1, 1.1); transition: 0.6s;}
+
+footer{background-color: #FEC679; height: 14rem;}
+footer > .footer_wrap{margin: auto; width: 102.4rem;}
+footer > .footer_wrap > .footer_logo{float: left; padding-top: 4rem;}
+footer > .footer_wrap > .footer_txt{float: right; padding-top: 4.4rem; text-align: right;font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 300;letter-spacing: -0.03rem;color: #ffffff;}
+
+
+
+/*서브1*/
+
+section > .sub1_key{background-color: #FFF1C0; background-image: url('../img/sub_1_keybg.png'); height: 50rem;  background-size: cover;} /*background-repeat: no-repeat=바둑판 안되지만 사진하나만 나옴*/
+section > .sub1_key > .sub1_key_wrap{margin: auto; width: 102.4rem;} /*wrap=감싸는것*/
+section > .sub1_key > .sub1_key_wrap > .sub1_key_title{padding-top: 9.8rem; padding-left: 2rem;}
+
+section > .sub1_con01 {background-color: #FFF9E3; height: 80rem;}
+section > .sub1_con01 > .sub1_con01_img{margin: auto; width: 102.4rem; padding-top: 3.6rem;}
+
+section > .sub1_con02 {background-color: #FFF7FF; height: 80rem;}
+section > .sub1_con02 > .sub1_con02_img{margin: auto; width: 102.4rem; padding-top: 0.3rem;}
+
+section > .sub1_con03 {background-color: #F2F5FF; height: 82rem; }
+section > .sub1_con03 > .sub1_con03_img{margin: auto; width: 102.4rem; padding-top: 0.3rem; }
+
+
+/*서브2*/
+
+section > .sub2_key{background-color: #FAFBFF; background-image: url('../img/sub_2_keybg.png'); height: 50rem;  background-size: cover;} /*background-repeat: no-repeat=바둑판 안되지만 사진하나만 나옴*/
+section > .sub2_key > .sub2_key_wrap{margin: auto; width: 102.4rem;} /*wrap=감싸는것*/
+section > .sub2_key > .sub2_key_wrap > .sub2_key_title{padding-top: 9.8rem; padding-left: 2rem;}
+
+section > .sub2_con01 {background-color: #FFE6E2; height: 80rem;}
+section > .sub2_con01 > .sub2_con01_img{margin: auto; width: 102.4rem; padding-top: 3.8rem;}
+
+section > .sub2_con02 {background-color: #F0F4FF; height: 80rem;}
+section > .sub2_con02 > .sub2_con02_img{margin: auto; width: 102.4rem; padding-top: 3.6rem;}
+
+section > .sub2_con03 {background-color: #FFE3BE; height: 80rem;}
+section > .sub2_con03 > .sub2_con03_img{margin: auto; width: 102.4rem; padding-top: 3.6rem;}
+
+section > .sub2_con04 {background-color: #FEF7FF; height: 158rem;}
+section > .sub2_con04 > .sub2_con04_img{margin: auto; width: 102.4rem; padding-top: 5.5rem;}
+
+
+/*서브3*/
+
+section > .sub3_key{background-color: #FDF7FF; background-image: url('../img/sub_3_keybg.png'); height: 50rem;  background-size: cover;} /*background-repeat: no-repeat=바둑판 안되지만 사진하나만 나옴*/
+section > .sub3_key > .sub3_key_wrap{margin: auto; width: 102.4rem;} /*wrap=감싸는것*/
+section > .sub3_key > .sub3_key_wrap > .sub3_key_title{padding-top: 9.1rem; padding-left: 2rem;}
+
+section > .sub3_con01 {background-color: #FFE9CC; height: 80rem;}
+section > .sub3_con01 > .sub3_con01_img{margin: auto; width: 102.4rem; padding-top: 3.5rem;}
+
+section > .sub3_con02 {background-color: #FFEDEA; height: 80rem;}
+section > .sub3_con02 > .sub3_con02_img{margin: auto; width: 102.4rem; padding-top: 3.6rem;}
+
+section > .sub3_con03 {background-color: #FFE3BE; height: 80rem;}
+section > .sub3_con03 > .sub3_con03_img{margin: auto; width: 102.4rem; padding-top: 3.6rem;}
+
+section > .sub3_con04 {background-color: #F3EDFF; height: 82rem;}
+section > .sub3_con04 > .sub3_con04_img{margin: auto; width: 102.4rem; padding-top: 3.6rem;}
+
+
+/*서브4*/
+
+section > .sub4_key{background-color: #FFF4F1; background-image: url('../img/sub_4_keybg.png'); height: 50rem;  background-size: cover;} /*background-repeat: no-repeat=바둑판 안되지만 사진하나만 나옴*/
+section > .sub4_key > .sub4_key_wrap{margin: auto; width: 102.4rem;} /*wrap=감싸는것*/
+section > .sub4_key > .sub4_key_wrap > .sub4_key_title{padding-top: 9.1rem; padding-left: 2rem;}
+
+section > .sub4_con01 {background-color: #EFF2FF; height: 80rem;}
+section > .sub4_con01 > .sub4_con01_img{margin: auto; width: 102.4rem; padding-top: 3.5rem;}
+
+section > .sub4_con02 {background-color: #FFEEEA; height: 82rem;}
+section > .sub4_con02 > .sub4_con02_img{margin: auto; width: 102.4rem; padding-top: 3.5rem;}
+
+
+/*서브5*/
+
+section > .sub5_key{background-color: #FFFEF6; background-image: url('../img/sub_5_keybg.png'); height: 50rem;  background-size: cover;} /*background-repeat: no-repeat=바둑판 안되지만 사진하나만 나옴*/
+section > .sub5_key > .sub5_key_wrap{margin: auto; width: 102.4rem;} /*wrap=감싸는것*/
+section > .sub5_key > .sub5_key_wrap > .sub5_key_title{padding-top: 9.1rem; padding-left: 2rem;}
+
+section > .sub5_con01 {background-color: #F1EBF8; height: 80rem;}
+section > .sub5_con01 > .sub5_con01_img{margin: auto; width: 102.4rem; padding-top: 3.5rem;}
+
+section > .sub5_con02 {background-color: #FFEFEF; height: 80rem;}
+section > .sub5_con02 > .sub5_con02_img{margin: auto; width: 102.4rem; padding-top: 3.6rem;}
+
+section > .sub5_con03 {background-color: #FFF5ED; height: 160rem;}
+section > .sub5_con03 > .sub5_con03_img{margin: auto; width: 102.4rem; padding-top: 3.6rem;}
